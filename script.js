@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             labels: ['Active Devices', 'Inactive Devices'],
             datasets: [{
                 data: [120, 22],
-                backgroundColor: ['#6C63FF', '#4A4A4A'],
+                backgroundColor: ['#14B8A6', '#4A4A4A'],
                 borderWidth: 0,
                 hoverOffset: 8
             }]
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 legend: {
                     position: 'bottom',
                     labels: {
-                        color: 'white',
+                        color: '#888', //depending on background theme 
                         font: { 
                             size: 12,
                             family: "'Segoe UI', sans-serif"
